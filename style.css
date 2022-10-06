@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2? family= Rajdhani & family= Ropa+Sans & display=swap');
+
+html{
+    font-size: 80%;
+}
+
+body {
+    font-family: "Ropa Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #888888;
+    width: 100%;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body > header{
+padding: 1rem 2rem;
+font-size: 1rem;
+line-height: 1rem;
+box-shadow: .1rem .1rem .1rem gray;
+}
+
+header * {
+    display: inline-block;
+    margin: 0;
+}
+
+body > header > img{
+    float: right;
+    margin-top: 16px;
+}
+
+body > main {
+    width: 100%;
+}
+
+#banner {
+    padding: 1rem;
+    width: 100%;
+}
+
+#banner >img {
+width: 100%;
+}
+
+#sales {
+    padding: 0 1rem;
+    width: 100%;
+}
+
+#sales > article {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#sales > article img {
+    width: 100%;
+    margin-bottom: -.5rem;
+}
+
+#sales > article > footer{
+    padding: 12px;
+    background-color: #EEEEEE;
+}
+
+#SALES span {
+    font-size: 25px;
+    line-height: 27px;
+}
+
+.rigth {
+    border-radius: 1.5rem;
+    background-color: #51d275;
+    color: white;
+    padding: 0 1rem;
+    flood: right;
+}
+
+.rigth.sale {
+    background-color: #DC9730;
+}
+
+#your-style {
+    padding: 0 1rem;
+}
+
+#your-style *{
+    width: 100%;
+    text-align: center;
+}
+
+.opaque {
+    opacity: 0,5;
+}
+
+.styles {
+    background-image: url(./img/Rectangle\ 11.png);
+    min-height: 5rem;
+    padding-top: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.styles span {
+    font-size: 1.5rem;
+    text-shadow: black .1rem .1rem;
+}
+
+.Industrial{
+    background-image: url(./img/Rectangle\ 11.png);
+}
+.Modern{
+    background-image: url(./img/Rectangle\ 12.png);
+}
+
+.Classic{
+    background-image: url(./img/Rectangle\ 13.png);
+}
+
+footer{
+    width: 100%;
+    padding: 1rem 1rem;
+    background-color: #333333;
+}
+
+footer > #gmaps{
+    width: 100%;
+}
+
+#contacts {
+    color:white;
+
+}
